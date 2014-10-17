@@ -20,9 +20,9 @@ while(1)
   if(choice == 3)
     exit(0);
   else if(choice == 1)
-       encipher();
+       encrypter();
        else if(choice == 2)
-	    decipher();
+	    decrypter();
 	    else
 	     printf("Vous n'avez pas choisi une option valide");
 	break;
@@ -30,7 +30,7 @@ while(1)
 }
 
 
-int encipher()
+int encrypter()
 {
 unsigned int a,b;
 char Lettre[257];
@@ -52,7 +52,7 @@ printf("Resultat :  ");
   exit(0);
 }
 
-int decipher()
+int decrypter()
 {
 unsigned int a,b;
 char Lettre[257];
